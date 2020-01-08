@@ -1,0 +1,4 @@
+Bundle-Name: parada-admin-web
+Bundle-SymbolicName: mx.com.cuervo.parada.admin
+Bundle-Version: 1.0.0
+Export-Package: mx.com.cuervo.parada.admin.constants
