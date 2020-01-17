@@ -64,7 +64,9 @@ long rutaId = Long.valueOf((Long) renderRequest
     className="mx.com.cuervo.rutas.transporte.model.Parada" modelVar="parada">
 
     <liferay-ui:search-container-column-text property="nombreParada" />
-
+	
+	<liferay-ui:search-container-column-text property="horario" />
+	
     <liferay-ui:search-container-column-text property="descripcion" />
 
 	<liferay-ui:search-container-column-text property="nombreCarpeta" />

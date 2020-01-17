@@ -29,6 +29,7 @@ long rutaId = ParamUtil.getLong(renderRequest, "rutaId");
 
         <aui:input name="nombreParada" />
         <aui:input name="descripcion" />
+        <aui:input name="horario" />
         <aui:input name="nombreCarpeta" />
         <aui:input name="nombreArchivo" />
         <aui:input name="paradaId" type="hidden" />

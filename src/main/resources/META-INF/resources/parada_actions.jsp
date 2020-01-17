@@ -19,7 +19,7 @@
             <liferay-ui:icon image="edit" message="Edit"
                 url="<%=editURL.toString() %>" />
       
-            <portlet:actionURL name="deleteEntry" var="deleteURL">
+            <portlet:actionURL name="deleteParada" var="deleteURL">
                 <portlet:param name="paradaId"
                     value="<%= String.valueOf(parada.getParadaId()) %>" />
                 <portlet:param name="rutaId"
